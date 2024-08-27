@@ -32,3 +32,11 @@ Gini impurity is the default but you can change it to entropy impurity too.
 
 Entropy has spread to a wide varitey of domains, including in Shannon's information theory, where it measures the average information content of a message. Entropy is zero when all messages are identical.
 
+![images/entropy.jpg](images/entropy.jpg)
+
+p(i,k) is the ratio of class k instances among the training instances in the ith node.
+
+Gini impyrity is slightly faster to compute. When they differ, Gini impurity tends to isolate the most frequent class in its own branch of the tree, while entropy tends to produce slightly more balanced trees.
+
+## Regularization Hyperparameters
+Decision trees are nonparametric models, not because it does not have any parameters (it often has a lot) but because the number of parameters is not determined prior to training. A parametric model such as a linear model, has a preditermined number of parameters, so its degree of freedom is limited, reducing the risk of overfitting (but increasing the risk of underfitting).
