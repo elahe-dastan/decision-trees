@@ -26,3 +26,9 @@ m: number of samples
 
 Traversing decision tree: O(log(m))
 Training decision tree: O(n * m * log(m))
+
+## Gini Impurity or Entropy
+Gini impurity is the default but you can change it to entropy impurity too.
+
+Entropy has spread to a wide varitey of domains, including in Shannon's information theory, where it measures the average information content of a message. Entropy is zero when all messages are identical.
+
