@@ -21,3 +21,8 @@ The tree stops recursing onces it reaches max_depth or cannot find a split that 
 CART is a greedy algorithm. It does not check whether or not the split will lead to the lowest possible impurity several levels down and is not guaranteed to be optimal. finding the optimal tree is known to be an NP-complete problem. It requires O(exp(m)) time.
 
 ## Computational Complexity
+n: number of features
+m: number of samples
+
+Traversing decision tree: O(log(m))
+Training decision tree: O(n * m * log(m))
