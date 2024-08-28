@@ -43,3 +43,6 @@ Decision trees are nonparametric models, not because it does not have any parame
 
 **Pruning**: A node whose children are all leaf nodes is considered unnecessary if the purity improvement it provides is not statistically significant. Standard statistical tests, such as the chi-squared test (X^2), are used to estimate the probability that the improvement is purely the result of chance (null hypothesis). If this probability, called the p-value, is higher than a given threshold (typically 5%), then the node is considered unnecessary and its children are deleted.
 
+![images/dt-6-3.jpg](images/dt-6-3.jpg
+
+
