@@ -40,3 +40,6 @@ Gini impyrity is slightly faster to compute. When they differ, Gini impurity ten
 
 ## Regularization Hyperparameters
 Decision trees are nonparametric models, not because it does not have any parameters (it often has a lot) but because the number of parameters is not determined prior to training. A parametric model such as a linear model, has a preditermined number of parameters, so its degree of freedom is limited, reducing the risk of overfitting (but increasing the risk of underfitting).
+
+**Pruning**: A node whose children are all leaf nodes is considered unnecessary if the purity improvement it provides is not statistically significant. Standard statistical tests, such as the chi-squared test (X^2), are used to estimate the probability that the improvement is purely the result of chance (null hypothesis). If this probability, called the p-value, is higher than a given threshold (typically 5%), then the node is considered unnecessary and its children are deleted.
+
