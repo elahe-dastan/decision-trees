@@ -49,4 +49,8 @@ Decision boundary of an unregularized tree(left) and a regularized tree(right)
 
 ## Regression
 
+![images/cartjpg](images/cart.jpg)
+
+Decision trees are prone to overfitting.
+
 
