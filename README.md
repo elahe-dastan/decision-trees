@@ -47,4 +47,6 @@ Decision trees are nonparametric models, not because it does not have any parame
 
 Decision boundary of an unregularized tree(left) and a regularized tree(right)
 
+## Regression
+
 
