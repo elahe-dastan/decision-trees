@@ -65,6 +65,6 @@ On the left, a decision tree can split it easily, while on the right, after the 
 
 One way to limit this problem is to scale the data, then apply a principal component analysis transformation. It rotates the data in a way that reduces the correlation between features, which often (not always) makes things easier for trees.
 
-
+## Decision Trees Have a High Variance
 
 
