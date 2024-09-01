@@ -66,5 +66,6 @@ On the left, a decision tree can split it easily, while on the right, after the 
 One way to limit this problem is to scale the data, then apply a principal component analysis transformation. It rotates the data in a way that reduces the correlation between features, which often (not always) makes things easier for trees.
 
 ## Decision Trees Have a High Variance
+Small changes to the hyperparameters or to the data may produce very different models. The training algorithm is stochastic, it randomly select the set of features, even retraining may produce a very different model. To reduce variance we use an ensemble of trees.
 
 
