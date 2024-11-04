@@ -10,3 +10,6 @@
 4. If a decision tree is underfitting the training set, is it a good idea to try scaling the input features? No relation
 5. If it takes one hour to train a decision tree on a training set containing one million instances, roughly how much time will it take to train another decision tree on a training set containing ten million instances?
    The time complexity of training a decision tree is O(n * m * log(m)) so it we multiply m by 10, the training time will be multiplied by k = 10 * log(10 * m) / log(m), if m is 10^6 then k will be roughly 11.7 so you can expect the training time to be roughly 11.7 hours.
+6. If it takes one hour to train a decsion tree on a given training set, roughly how much time will it take if you double the number of features? It will double too.
+
+7 and 8 are so easy.
